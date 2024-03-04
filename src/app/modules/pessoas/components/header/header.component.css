@@ -1,0 +1,14 @@
+.containerHeader {
+    width: 100%;
+    height: 10rem;
+    background-color: #2d3250;
+}
+
+.title {
+    height: 9rem;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 5rem;
+    color: #FFFFFF;
+    font-size: 3rem;
+}
