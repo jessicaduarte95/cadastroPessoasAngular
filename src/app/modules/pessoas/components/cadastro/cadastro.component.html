@@ -2,11 +2,11 @@
     <div class="contentCadastro">
         <div class="cadastro">
             <div>
-                <input type="text" placeholder="Nome">
-                <input type="number" placeholder="Idade">
+                <input type="text" placeholder="Nome" [(ngModel)]="addNomeList">
+                <input type="number" placeholder="Idade" [(ngModel)]="addIdadeList">
             </div>
             <div class="button">
-                <button>Adicionar</button>
+                <button (click)="submitItemPersonList()">Adicionar</button>
             </div>
         </div>
     </div>
