@@ -1,0 +1,44 @@
+.containerCadastro {
+    background-color: #424769;
+    height: 90vh;
+}
+
+.contentCadastro {
+    display: flex;
+    justify-content: center;
+}
+
+.cadastro {
+    background-color: #2d3250;
+    margin-top: 3.5rem;
+    padding: 2rem 0rem 1.5rem 0rem;
+    border-radius: 0.2rem;
+}
+
+.cadastro input {
+    width: 16rem;
+    margin: 0 2rem;
+    padding-left: 0.5rem;
+    height: 2.3rem;
+    background-color: #6C7190;
+    border: 0;
+    border-radius: 0.2rem;
+}
+
+::placeholder {
+    color: #ffffff;
+}
+
+.button {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2rem;
+}
+
+.cadastro button {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    border: 0;
+    background-color:#FFC17A;
+}
