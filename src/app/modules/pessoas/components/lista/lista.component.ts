@@ -10,7 +10,11 @@ export class ListaComponent implements OnInit {
 
   @Input() public listPeople: Array<ListPeople> = [];
 
-  constructor() { }
+  constructor() { } 
+
+  public deletePerson(event: number) {
+    this.listPeople.splice(event, 1);
+  }
 
   ngOnInit(): void {
   }
