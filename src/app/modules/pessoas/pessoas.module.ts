@@ -4,6 +4,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { PessoasComponent } from './pages/pessoas/pessoas.component';
 import { CadastroComponent } from './components/cadastro/cadastro.component';
 import { FormsModule } from '@angular/forms';
+import { ListaComponent } from './components/lista/lista.component';
 
 
 
@@ -11,7 +12,8 @@ import { FormsModule } from '@angular/forms';
   declarations: [
     HeaderComponent,
     PessoasComponent,
-    CadastroComponent
+    CadastroComponent,
+    ListaComponent
   ],
   imports: [
     CommonModule,

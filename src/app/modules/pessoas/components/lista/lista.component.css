@@ -1,0 +1,52 @@
+.containerLista {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    border-radius: 0.2rem;
+}
+
+.contentLista {
+    padding: 2rem;
+    border-radius: 0.2rem;
+    background-color: #2d3250;
+    max-height: 18rem;
+    overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+    width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #2d3250;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #252A42;
+}
+
+table {
+    border: 0.03rem solid #FFFFFF;
+}
+
+th {
+    color: #FFFFFF;
+    padding: 0.6rem 4.75rem;
+    border-right: 0.01rem solid #FFFFFF;
+    border-bottom: 0.01rem solid #FFFFFF;
+}
+
+
+td {
+    color: #FFFFFF;
+    padding: 0.6rem 4.75rem;
+    border-right: 0.01rem solid #FFFFFF;
+    border-bottom: 0.01rem solid #FFFFFF;
+}
+
+button {
+    background-color: #2d3250;
+    border: none;
+    margin-left: 1.2rem;
+}

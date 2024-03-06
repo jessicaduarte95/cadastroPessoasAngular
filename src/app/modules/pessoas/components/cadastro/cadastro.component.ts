@@ -1,4 +1,4 @@
-import { Component, OnInit, Output, EventEmitter } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter, Input  } from '@angular/core';
 import { ListPeople } from '../../model/list-people'
 
 @Component({
@@ -9,6 +9,7 @@ import { ListPeople } from '../../model/list-people'
 export class CadastroComponent implements OnInit {
 
   @Output() public emitItemPersonList = new EventEmitter<ListPeople>;
+  @Input() public list: Array<ListPeople> = [];
 
   public addNomeList: string = "";
   public addIdadeList: number = 0;
