@@ -12,7 +12,7 @@ export class CadastroComponent implements OnInit {
   @Input() public list: Array<ListPeople> = [];
 
   public addNomeList: string = "";
-  public addIdadeList: number = 0;
+  public addIdadeList: number | undefined;
 
   constructor() { }
 
@@ -21,7 +21,7 @@ export class CadastroComponent implements OnInit {
     if (this.addNomeList && this.addIdadeList) {
       this.emitItemPersonList.emit({ nome: this.addNomeList, idade: this.addIdadeList })
       this.addNomeList = "";
-      this.addIdadeList = 0;
+      this.addIdadeList = undefined;
     }
   }
 
